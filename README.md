@@ -7,7 +7,7 @@ Using
 ---------------
 ```
 $ docker build -t mnagy/twisted_hello .
-$ docker run -t mnagy/twisted_hello
+$ docker run -p 1337:1337 -t mnagy/twisted_hello
 ```
 
 The application will run on port 1337.
